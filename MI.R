@@ -1,9 +1,24 @@
 #===============================================================================
-# AlloHubMat
+# AlloHubMat::MI.R
 # Entropy metrics for a pair of character vectors
 # Mutual Information, Finite Size Error, Joint Entropy, normalised MI
 # See also our paper https://doi.org/10.1096/fj.11-190868.
-# (C) 2018 Jens Kleinjung
+# (C) 2019 Jens Kleinjung, Jamie Macpherson, Franca Fraternali
+#
+# This file is part of AlloHubMat.
+#
+#    AlloHubMat is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    Foobar is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
 #===============================================================================
 ## input data col1 and col2 should be character vectors
 ## might work with other data types, but that is untested
